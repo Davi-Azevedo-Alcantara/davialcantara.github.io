@@ -1,0 +1,40 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #eaf0fc;
+    flex-direction: column;
+ }
+
+ .font-italic {
+    font-style: italic !important;
+    font-size: 30px;
+  }
+
+ .text{
+    font-style: italic !important;
+     font-size: 30px;
+     color: #495057;
+     margin-bottom: 30px;
+ }
+ .paragrafo{
+     color: #495057;
+     margin-bottom: 50px;
+ }
+ .btn{
+     padding: 15px 55px;
+     text-decoration: none;
+     color: #fff;
+     background-color: #04a152;
+     border-color: #04a152;
+     font-size: 18px;
+     transition: all 0.5s;
+     border-radius: 16px;
+ }
+
+ .btn:hover {
+    color: #fff;
+    background-color: #1acf74;
+    border-color: #1acf74;
+}
